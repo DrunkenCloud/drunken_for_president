@@ -7,8 +7,12 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-400 to-pink-500 text-white p-8 flex flex-col items-center" style={{fontFamily: '"Comic Sans MS", "Comic Sans", cursive'}}>
       <header className="text-center mb-12 max-w-2xl">
-        <h1 className="text-5xl font-bold mb-4" style={{fontFamily: '"Times New Roman", Times, serif'}}>Vote for DrunkenCloud</h1>
-        <p className="text-2xl font-semibold">"Because Experience is Overrated!"</p>
+        <h1 className="text-5xl font-bold mb-4" style={{ fontFamily: '&quot;Times New Roman&quot;, Times, serif' }}>
+          Vote for DrunkenCloud
+        </h1>
+        <p className="text-2xl font-semibold">
+          &quot;Because Talk is Overrated!&quot;
+        </p>
       </header>
 
       <main className="w-full max-w-2xl">
@@ -36,6 +40,31 @@ export default function Component() {
               </ul>
             </CardContent>
           </Card>
+        </section>
+        <section className="mb-12 text-center">
+          <h2 className="text-4xl font-extrabold text-gray-100 mb-6 tracking-wide" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
+            Campaign Postulates
+          </h2>
+          <div className="bg-white/10 backdrop-blur-lg p-8 rounded-xl shadow-lg border border-white/20">
+            <ul className="space-y-6 text-left text-lg">
+              <li className="flex items-start space-x-3">
+                <span className="text-yellow-400 mt-1">☑️</span>
+                <p className="text-white">Schrödinger's President: Until observed, I am simultaneously a sophomore and a senior. The act of voting will collapse this into supreme leadership.</p>
+              </li>
+              <li className="flex items-start space-x-3">
+                <span className="text-yellow-400 mt-1">☑️</span>
+                <p className="text-white">The Dunning-Kruger Gambit: My lack of experience qualifies me. I stand at the peak of Mount Stupid, armed with unshakeable confidence.</p>
+              </li>
+              <li className="flex items-start space-x-3">
+                <span className="text-yellow-400 mt-1">☑️</span>
+                <p className="text-white">Memetic Warfare: The most viral idea wins. By now, my candidacy is already spreading through the noosphere at the speed of dank memes.</p>
+              </li>
+              <li className="flex items-start space-x-3">
+                <span className="text-yellow-400 mt-1">☑️</span>
+                <p className="text-white">The Paradox of Choice: Introducing an illegal option has short-circuited the decision matrix. Cognitive dissonance alone will revolutionize our society!</p>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section className="mb-12 text-center">
