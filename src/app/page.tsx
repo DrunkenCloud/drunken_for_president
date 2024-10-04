@@ -98,6 +98,14 @@ export default function Component() {
 
       <footer className="mt-12 text-center text-sm max-w-2xl" style={{fontFamily: '"Times New Roman", Times, serif'}}>
         <p>Paid for by the &quot;Why Not?&quot; Committee for Campus Shenanigans</p>
+        <a
+          href="https://github.com/DrunkenCloud"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-yellow-400 hover:text-yellow-500"
+        >
+          Check out my GitHub
+        </a>
       </footer>
     </div>
   )
