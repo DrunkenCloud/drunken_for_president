@@ -49,7 +49,7 @@ export default function Component() {
             <ul className="space-y-6 text-left text-lg">
               <li className="flex items-start space-x-3">
                 <span className="text-yellow-400 mt-1">☑️</span>
-                <p className="text-white">Schrödinger's President: Until observed, I am simultaneously a sophomore and a senior. The act of voting will collapse this into supreme leadership.</p>
+                <p className="text-white">Schrödinger&#39;s President: Until observed, I am simultaneously a sophomore and a senior. The act of voting will collapse this into supreme leadership.</p>
               </li>
               <li className="flex items-start space-x-3">
                 <span className="text-yellow-400 mt-1">☑️</span>
@@ -97,7 +97,7 @@ export default function Component() {
       </main>
 
       <footer className="mt-12 text-center text-sm max-w-2xl" style={{fontFamily: '"Times New Roman", Times, serif'}}>
-        <p>Paid for by the "Why Not?" Committee for Campus Shenanigans</p>
+        <p>Paid for by the &quot;Why Not?&quot; Committee for Campus Shenanigans</p>
       </footer>
     </div>
   )
