@@ -102,7 +102,7 @@ export default function Component() {
           href="https://github.com/DrunkenCloud"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-yellow-400 hover:text-yellow-500"
+          className="text-green-400 hover:text-yellow-500"
         >
           Check out my GitHub
         </a>
