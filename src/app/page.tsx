@@ -78,7 +78,7 @@ export default function Component() {
               "Establish a 24/7 delivery service on campus for takeout from Rishabs/Ashwins (Collab)",
               "Replace final exams with Gaming Tournaments"
             ].map((promise, index) => (
-              <Badge key={index} variant="secondary" className="p-4 text-lg">
+              <Badge key={index} variant="secondary" className="p-4 text-lg items-center justify-center">
                 {promise}
               </Badge>
             ))}
